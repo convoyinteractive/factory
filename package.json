@@ -1,7 +1,7 @@
 {
     "name": "@convoyinteractive/factory",
     "version": "0.1.0",
-    "description": "A continuesly expanding factory collection.",
+    "description": "A continuously expanding factory collection.",
     "main": "index.js",
     "repository": {
         "type": "git",
@@ -14,5 +14,8 @@
     "homepage": "https://github.com/onvoyinteractive/factory#readme",
     "devDependencies": {
         "prettier": "^2.2.1"
+    },
+    "dependencies": {
+        "gsap": "^3.6.0"
     }
 }
