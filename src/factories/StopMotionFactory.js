@@ -5,7 +5,7 @@ export default function(element, { start, speed }) {
         element = document.querySelector(element)
     }
 
-    let items = [...element.children]
+    let items = element ? [...element.children] : []
 
     speed = speed || 0.2
     start = start || 0
